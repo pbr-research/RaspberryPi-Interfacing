@@ -1,6 +1,14 @@
-# This example is a hello world example
-# for using a keypad with the Raspberry Pi
+"""
+HEX keypad interfacing with Raspberry Pi
 
+This python program will read ststus of keys and display it 
+on terminal wondow
+
+Python version : Python3
+Tested on : Raspberry pi 3B+ and Raspberry pi Zero W
+Author : Bahubali Fuladi
+Date : 19/01/2022 04:50Pm
+""" 
 import RPi.GPIO as GPIO
 import time
 
